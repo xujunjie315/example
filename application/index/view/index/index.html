@@ -1,0 +1,10 @@
+<html>
+    <div>
+        <ul>
+        {volist name='list' id='user'}
+            <li> {$user.token}-------{$user.date}</li>
+        {/volist}
+        </ul>
+        </div>
+        {$list->render()}
+</html>
